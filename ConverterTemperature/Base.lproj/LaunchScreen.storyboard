@@ -15,16 +15,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Night" translatesAutoresizingMaskIntoConstraints="NO" id="Gd5-Ak-EiH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="head in clowds-1" translatesAutoresizingMaskIntoConstraints="NO" id="Bsz-7k-3K8">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Gd5-Ak-EiH" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="MsV-Fc-KpD"/>
-                            <constraint firstAttribute="bottom" secondItem="Gd5-Ak-EiH" secondAttribute="bottom" id="NaS-BW-aUx"/>
-                            <constraint firstItem="Gd5-Ak-EiH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="O84-eJ-4XT"/>
-                            <constraint firstItem="Gd5-Ak-EiH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="iCC-hm-Y7o"/>
+                            <constraint firstItem="Bsz-7k-3K8" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="IO9-6p-YIA"/>
+                            <constraint firstItem="Bsz-7k-3K8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Mg5-Xy-Le0"/>
+                            <constraint firstItem="Bsz-7k-3K8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lvM-Se-KrN"/>
+                            <constraint firstAttribute="bottom" secondItem="Bsz-7k-3K8" secondAttribute="bottom" id="wIn-2Q-T60"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -35,6 +35,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Night" width="375" height="667"/>
+        <image name="head in clowds-1" width="787.5" height="600"/>
     </resources>
 </document>
