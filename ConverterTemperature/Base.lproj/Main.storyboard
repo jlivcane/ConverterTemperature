@@ -141,12 +141,12 @@
                                 <exclude reference="XtM-kH-JZo"/>
                                 <exclude reference="mnu-sk-sId"/>
                                 <exclude reference="zR4-QI-wk8"/>
-                                <exclude reference="dyq-i9-sRE"/>
-                                <exclude reference="lWY-Dh-49U"/>
-                                <exclude reference="vhN-8x-hBX"/>
                                 <exclude reference="A0k-AG-10A"/>
                                 <exclude reference="Ssl-Yy-JuG"/>
                                 <exclude reference="fx5-dd-n2e"/>
+                                <exclude reference="dyq-i9-sRE"/>
+                                <exclude reference="lWY-Dh-49U"/>
+                                <exclude reference="vhN-8x-hBX"/>
                                 <exclude reference="5rO-4d-4AX"/>
                                 <exclude reference="PpA-fw-imx"/>
                                 <exclude reference="qBE-Nm-2yt"/>
@@ -158,8 +158,8 @@
                                 <include reference="Ul1-w6-jLH"/>
                                 <exclude reference="fgx-fP-01d"/>
                                 <exclude reference="zag-1Z-jWV"/>
-                                <include reference="dyq-i9-sRE"/>
                                 <include reference="A0k-AG-10A"/>
+                                <include reference="dyq-i9-sRE"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact-widthClass=regular">
@@ -179,12 +179,12 @@
                                 <exclude reference="fgx-fP-01d"/>
                                 <exclude reference="mnu-sk-sId"/>
                                 <exclude reference="zag-1Z-jWV"/>
-                                <exclude reference="ff2-q8-BYf"/>
-                                <include reference="lWY-Dh-49U"/>
-                                <exclude reference="vhN-8x-hBX"/>
                                 <include reference="Ssl-Yy-JuG"/>
                                 <exclude reference="fx5-dd-n2e"/>
                                 <exclude reference="n9k-AC-xhc"/>
+                                <exclude reference="ff2-q8-BYf"/>
+                                <include reference="lWY-Dh-49U"/>
+                                <exclude reference="vhN-8x-hBX"/>
                                 <include reference="5rO-4d-4AX"/>
                                 <exclude reference="PpA-fw-imx"/>
                                 <exclude reference="pMX-ZC-A7T"/>
@@ -197,7 +197,7 @@
                         <barButtonItem key="leftBarButtonItem" title="Info" id="ell-zp-obf">
                             <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                             <connections>
-                                <segue destination="Mew-Sa-Gwo" kind="show" id="6Uc-v9-BPT"/>
+                                <segue destination="Mew-Sa-Gwo" kind="presentation" identifier="infoSegue" id="6Uc-v9-BPT"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Dark Mode" id="iLg-8N-1M7">
@@ -222,11 +222,11 @@
             <objects>
                 <viewController id="Mew-Sa-Gwo" customClass="InfoViewController" customModule="ConverterTemperature" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K0Q-sl-WXt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PV3-94-zG8">
-                                <rect key="frame" x="301" y="48" width="45" height="45"/>
+                                <rect key="frame" x="301" y="4" width="45" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="4UL-fM-xiJ"/>
                                     <constraint firstAttribute="width" constant="45" id="6wT-pY-LoK"/>
@@ -239,7 +239,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App Info" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94F-xL-LW6">
-                                <rect key="frame" x="145.5" y="344" width="84.5" height="23.5"/>
+                                <rect key="frame" x="145.5" y="312" width="84.5" height="23.5"/>
                                 <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -261,7 +261,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b4y-mV-frS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="350" y="-1443"/>
+            <point key="canvasLocation" x="169" y="-1451"/>
         </scene>
         <!--Appearance View Controller-->
         <scene sceneID="C3w-XQ-9tv">

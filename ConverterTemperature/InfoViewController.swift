@@ -12,7 +12,7 @@ class InfoViewController: UIViewController {
     
     @IBOutlet weak var appInfoLabel: UILabel!
     
-    let infoText = "This app is homework project.\nConverter of temperature C/F\nCheck Dark/Light Mode."
+    let infoText = String ("This app is homework project.\nConverter of temperature C/F\nCheck Dark/Light Mode.")
     
     
     override func viewDidLoad() {
